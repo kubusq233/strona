@@ -1,0 +1,33 @@
+body {
+	background-color: red;
+}
+table {
+	width: 100%;
+	background-color: orange;
+		}
+th, td{
+	border: 1px solid #dddddd;
+	text-align: center;
+			}
+a.hover {
+	color: white;
+		}
+#sklep 
+{
+	float:left;
+	width: 34%;
+	height: 75%;
+	background-color: pink;
+}
+#sprzedaz {
+	float: right;
+	width: 33%;
+	height: 75%;
+	background-color: green;
+}
+#kupno {
+	float:left;
+	width: 33%;
+	height: 75%;
+	background-color: blue;
+}
