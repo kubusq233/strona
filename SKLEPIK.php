@@ -7,11 +7,10 @@
 <body>
 	<div id="baner">
 		<h1>Nasz malutki sklep</h1>
-		<p>Jest naszą wielką dumą, nie ma nic wiekszego ponad nasz sklep</p>
 	</div>
 	
 	<div id="kupno">
-		<h1>WSZYSTKIE TOWARY KOSZTUJA TYLKO 3 ZL</h1>
+		<h1>WSZYSTKIE TOWARY KOSZTUJA TYLKO 3 ZL</h1>(zaufany sprzedawca)</br>
 		<form action="kupno.php" method="POST">
 		<h1>ZAKUP RZECZY</h1></br>
 			ID Towaru: <input type="number" name="idtowar"/></br>
@@ -62,15 +61,17 @@
 	
 	<div id="sprzedaz">
 		<form action="sprzedaz.php" method="POST">
-	<h1>SPRZEDAŻ RZECZY</h1></br>
+	<h1>ILE I JAKIE RZECZY SPRZEDALISMY</h1></br>
 ID Towaru: <input type="number" name="idtowar"/></br>
 Ilość: <input type="number" name="ilosc"/></br>
 <button type="submit">SELL </button>
 </form>
-
-
-
-
+	</div>
+	
+	<div id="stopka">
+		<p>W razie jakikolwiek pytań prosimy o kontakt: </p>
+		Telefon: 997</br>
+		E-Mail: sip@policja.gov.pl<br/>
 	</div>
 </body>
 </html>
